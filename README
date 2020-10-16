@@ -1,0 +1,22 @@
+Introduction :
+
+This project is an implementation of a file shared system (P2P).
+
+Build in server:
+ - mkdir build
+ - cd build
+ - cmake ..
+ - make
+
+Options on server:
+  -v to start the server in "verbose" mode (default false)
+  -p to change the default port for client (default 3333)
+  -n to adjust the piece size (default 2048)
+  -m to adjust the message size (default 16000)
+  -c to adjust the number max of clients (default 5)
+
+Authors :
+ - Beauvillard Enguerran
+ - De Paz Samuel
+ - Despretz Valérian
+ - Maurin Adrien
